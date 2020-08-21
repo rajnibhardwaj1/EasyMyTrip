@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    padding: 0;
+    background: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-image: url('signup-bg-img.jpg');
+    background-size: cover;
+}
+.signin-page{
+    position: relative;
+    margin: 10% auto;
+    width: 600px;
+    height: 400px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+
+}
+.left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+}
+h1{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+
+}
+input[type = "text"], input[type = "password"]{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+input[type="submit"]{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: grey;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: black;
+    color: white;
+    transition: 0.2s ease;
+}
+.right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+
+}
+.right .signin-with{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color:black;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.7);
+
+}
+.back{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: grey;
+    width: 30px;
+    border-radius: 2px;
+    color: white;
+
+}
+.back:hover{
+    background: black;
+    color: white;
+    transition: 0.2s ease;
+
+}
+.button{
+    margin-bottom: 20px;
+    width: 230px;
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 550;
+    transition: 0.3s ease;
+    cursor: pointer;
+    /* font-size: ; */
+}
+
+#facebook{
+    background-color: rgb(19, 19, 88);
+}
+#twitter{
+    background-color: rgb(8, 51, 245);
+}
+#google{
+    background-color: red;
+}
+#facebook:hover{
+    color: white;
+    background-color: rgb(62, 79, 177);
+}
+#twitter:hover{
+    color: white;
+    background-color: rgb(91, 120, 250);
+}
+
+#google:hover{
+    color: white;
+    background-color: tomato;
+}
